@@ -336,11 +336,11 @@ class API {
     static func convertProductIDName(identifier:String?) -> String {
         var nickname = String()
         switch (identifier) {
-            case "com.travelear.travel.one":
+            case "xxx":
                 nickname = "One Month"
-            case "com.travelear.travel.six":
+            case "xxx":
                 nickname = "Six Month"
-            case "com.travelear.travel.twelve":
+            case "xxx":
                 nickname = "Twelve Month"
         default:
             nickname = " "
